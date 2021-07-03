@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Syne Mono', monospace;
+}
+
+#container{
+  margin: 12px auto;
+  width: 75%;
+}
+
+header{
+  padding: 5% 40%;
+  text-align: center;
+  background: url("https://media.istockphoto.com/vectors/computer-games-seamless-background-vector-id528711245?b=1&k=6&m=528711245&s=612x612&w=0&h=zKGpDrFzAtNBAkze6CneYPH2cPtjgTIm94yJKalnpUc=")
+   
+}
+
+header p{
+  color: white;
+  font-size: 30px;
+  padding: 5%;
+  margin: 5% 0px;
+  background: rgba(0,0,0,0.8) 
+}
+
+.topnav {
+  padding: 20px;
+  text-align: center;
+  background : url("https://i.pinimg.com/originals/79/73/e9/7973e9a92e0ce745a60614beceba961f.gif")
+}
+
+.bookmarks {
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 3%;
+}
+
+.bookmarks:hover{
+  background-image: linear-gradient(to right, rgba(255,0,0,0.7), rgba(98, 52, 140,0.7));
+}
+.center {
+    text-align: center !important;
+ }
+
+.centered{
+  position: relative;
+  top: 50%;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 20%;
+  border : 2px solid black;
+  margin: 0px 25px;
+  height: 300px;
+  background: url("https://media.istockphoto.com/vectors/gaming-gadgets-seamless-pattern-in-deep-blue-outline-esports-pc-and-vector-id1166885668?b=1&k=6&m=1166885668&s=612x612&w=0&h=e3Umh8igr2Epd1dZYi0dkuGx4i5CQpl9Ep3ktbwKHf4=");
+    color: white;
+}
+
+
+.column.middle {
+  width: 50%;
+  height: 300px;
+  padding: 5px 25px;
+  border: 2px solid black;
+  background : url(https://img.freepik.com/free-vector/abstract-violet-pixel-rain-background_23-2148362568.jpg?size=626&ext=jpg);
+  color: white;
+}
+
+#columns:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-row {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card img{
+  width: 50%;
+  border : 2px solid black;
+  border-radius: 50%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgba(204, 194, 194, 0.363);
+    float: left;
+    width: 24%;
+    height: 80%;
+  }
+  
+  div.gallery:hover {
+    border: 5px solid #f5f5f583;
+    color: #d14e2d;
+    background: #fff;
+    box-shadow:3px 2px 2px rgba(222, 236, 255, 0.63);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 230px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  #galleryContainer{
+      height: 380px;
+      width: 100%;   
+  }
