@@ -138,3 +138,12 @@ div.gallery {
       height: 380px;
       width: 100%;   
   }
+
+  newsbutton{
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      background-color: purple;
+  }
+
